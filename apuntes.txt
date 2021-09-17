@@ -1,6 +1,7 @@
 # git
 git es el principal programa de VCS (Version Control System).
 
+## Flujo
 El flujo tradicional de trabajo de git es:
 
 1. Inicializamos/clonamos el repo.
@@ -22,7 +23,7 @@ El flujo tradicional de trabajo de git es:
 
 
 
-Comandos que usamos:
+## Comandos que usamos
 - git init
 	Inicializa el repo.
 

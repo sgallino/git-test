@@ -17,6 +17,7 @@ El flujo tradicional de trabajo de git es:
 	De esos archivos, git solo guarda el "diff".
 	Un "diff" (difference) es una lista de los cambios que hubo entre un 
 	archivo y otro.
+	Cada commit se identifica por un "hash".
 4. Vamos repitiendo el paso 3. cada vez que queramos guardar el progreso.
 5. Siempre tratamos de trabajar en diferentes "branches" (ramas).
 
@@ -37,3 +38,7 @@ Comandos que usamos:
 - git commit
 	Crea un nuevo "commit" en el historial de la rama (branch) en la que 
 	estamos.
+
+- git log
+	Muestra el historial de commits y sus hashes.
+

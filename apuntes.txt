@@ -33,3 +33,7 @@ Comandos que usamos:
 	Trackea el archivo indicado. Pueden poner un carpeta, y trackea todo
 	su contenido.
 	Por ejemplo, "git add ." agrega todos los archivos.
+
+- git commit
+	Crea un nuevo "commit" en el historial de la rama (branch) en la que 
+	estamos.

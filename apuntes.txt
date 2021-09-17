@@ -60,4 +60,5 @@ Copian el token que generan, y lo configuran en su cuenta de git. La
 forma más simple es usando el CLI de GitHub:
 	https://github.com/cli/cli#installation
 
-
+Luego, crean un repo, y lo sincronizan con alguno local ya sea clonándolo
+o asociando uno existente (al crear el repo les dice los comandos).

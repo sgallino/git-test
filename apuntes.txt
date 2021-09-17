@@ -43,3 +43,21 @@ El flujo tradicional de trabajo de git es:
 - git log
 	Muestra el historial de commits y sus hashes.
 
+- git remote add <name> <url>
+	Crea un nuevo link a un repositorio externo (ej: GitHub).
+
+- git push <externo> <local>
+	Pushea el contenido del branch "local" al branch "externo".
+
+
+
+## Trabajando con GitHub
+Primero, deben crear su PAT (Private Access Token) desde Profile => 
+Developer Settings.
+	https://docs.github.com/es/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
+Copian el token que generan, y lo configuran en su cuenta de git. La 
+forma más simple es usando el CLI de GitHub:
+	https://github.com/cli/cli#installation
+
+

@@ -1,0 +1,35 @@
+# git
+git es el principal programa de VCS (Version Control System).
+
+El flujo tradicional de trabajo de git es:
+
+1. Inicializamos/clonamos el repo.
+	1a. Inicializar se refiere a crear un nuevo repo vacío en alguna carpeta.
+	1b. Clonar se refiere a duplicar algún repo existente en otra ubicación (ej: de GitHub, de otra red, de otra carpeta). Esto copia los archivos y el historial de modificaciones de git.
+2. Se "agregan" los archivos que queremos "trackear".
+	Trackear se refiere a que git los tenga en cuenta para guardar en el historial de cambios.
+	Los archivos agregados pasan a figurar en el "staging step".
+3. Guardamos un cambio en el historial usando el comando "commit". 
+	Por lo tanto, cada commit es un cambio en el historial, y se los llamar
+	a esos cambios "commit".
+	Un commit se compone de un mensaje descriptivo (preferentemente corto),
+	y de los archivos modificados.
+	De esos archivos, git solo guarda el "diff".
+	Un "diff" (difference) es una lista de los cambios que hubo entre un 
+	archivo y otro.
+4. Vamos repitiendo el paso 3. cada vez que queramos guardar el progreso.
+5. Siempre tratamos de trabajar en diferentes "branches" (ramas).
+
+
+
+Comandos que usamos:
+- git init
+	Inicializa el repo.
+
+- git status
+	Muestra los archivos que están o no trackeados, y que tienen cambios.
+
+- git add <file>
+	Trackea el archivo indicado. Pueden poner un carpeta, y trackea todo
+	su contenido.
+	Por ejemplo, "git add ." agrega todos los archivos.

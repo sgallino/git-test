@@ -1,0 +1,5 @@
+# El archivo .gitignore permite definir archivos y/o carpetas que queremos que git ignore.
+# "Ignorar" significa que nunca las va a tener en cuenta para "trackear".
+# Por ejemplo, archivos de configuración de entorno, carpetas como "node_modules" o "vendor", archivos locales de testeo, etc, suelen estar incluídos.
+# La carpeta de phpStorm, por ejemplo, podemos agregarla.
+.idea
